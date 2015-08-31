@@ -16,7 +16,7 @@ app.use('/api/vegetables', vegetables);
 app.use('/api/fruits', fruits)
 
 app.listen(process.env.PORT || 8080);
-console.log('Woot, server started');
+console.log('server started on port 8080');
 
 
 module.exports= app;
